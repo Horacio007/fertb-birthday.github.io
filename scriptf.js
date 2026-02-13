@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     $('#btn').on('click', function() {
-        $('#mostrar').hide(); 
+        $('.contenedor').hide(); 
         $('#contenedorMostrar').show(() => {
             const audio = new Audio("./PacMan Original Theme - TheCantinaBand.mp3");
             audio.play();
